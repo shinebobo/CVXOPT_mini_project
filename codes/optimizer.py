@@ -9,7 +9,6 @@ class Base(ABC):
         self.lr = lr
     
     def choose(self, env:Environment, x: np.ndarray, t: int):
-        "Choose next x"
         pass
 
 class OGD(Base):
